@@ -31,8 +31,8 @@ class UrlService {
         const basicUrl = await urlModel.create({
             "url.longUrl": longUrl,
             "url.shortUrl": shortUrls
-                ? " https://url-fi2d.onrender.com/" + shortUrls
-                : "https://url-fi2d.onrender.com/" + genatorChar(),
+                ? " https://url.psang.click/" + shortUrls
+                : "https://url.psang.click/" + genatorChar(),
         });
 
         return basicUrl;
